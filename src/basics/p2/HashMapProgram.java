@@ -13,7 +13,7 @@ public class HashMapProgram {
 		hello.put('c', 30);
 		hello.put('d', 40);
 		hello.put('e', 50);
-		System.out.println(hello.get(3));
+		System.out.println(hello.get(2));
 		System.out.println(hello);
 		
 		Pattern pattern = Pattern.compile("srimayee");

@@ -1,5 +1,8 @@
 package basics.p2;
 
+import java.util.Date;
+import java.util.HashSet;
+
 import basics.p1.Program1;
 
 public class Program3{
@@ -18,6 +21,17 @@ public class Program3{
 		System.out.println(objThree.g);
 		StaticElementsCheck stat = new StaticElementsCheck();
 		System.out.println(stat.hi);
+		
+		String s = "Enter the String";
+		//StringBuffer hyg= new StringBuffer(s);
+		//System.out.println(hyg.replace(0, s.length(), ""));
+		String[] f = s.split(" ");
+		System.out.println(f[0]+f[1]+f[2]);
+		//System.out.println(s.replace('e', 'k'));
+		Date d = new Date();
+		System.out.println(d);
+		
+		
 	}
 
 }
